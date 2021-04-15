@@ -1,0 +1,55 @@
+.delivering
+    padding: 80px 0
+    &__title
+        font-weight: 700
+        font-size: 2em
+        line-height: 1.5em
+        color: $text-color
+        span
+            img
+                width: 61px
+                padding-bottom: 12px
+                
+    &__descr
+        font-weight: 400
+        margin-top: 15px
+        font-size: 1.5em
+        line-height: 1.5em
+        color: $text-color
+    &__cards
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        &-item
+            width: 270px
+            position: relative
+            margin-top: 40px
+        &-title
+            margin-top: 9%
+            font-weight: 700
+            font-size: 24px
+            line-height: 36px
+            color: $text-color
+        &-descr 
+            margin-top: 16px
+            font-size: 18px
+            line-height: calc(26px + 0.6vw)
+            color: $text-color
+        &-btn
+            margin-top: 8px
+            a
+                margin-top: 8px
+                padding: 8px 16px
+                font-weight: 700
+                font-size: 18px
+                line-height: 32px
+                background-color: red
+                color: #6C5CE7
+                background: #FFFFFF
+                border: 1px solid #ADADAD
+                border-radius: 16px
+                &:hover
+                    text-decoration: none
+                    color: #fff
+                    background-color: #6C5CE7
+                    border: 1px solid #6C5CE7
